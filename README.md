@@ -24,11 +24,17 @@ Suppose you have a CNF file (f1.cnf) with the following content:
 cnf
 
 p 3 1 2
+
 v 2 a b
+
 c 2 x y
+
 f 1 f
+
 x(a)
+
 x(b)
+
 !x(f(x))
 
 The script will determine if the KB is satisfiable and print either "yes" or "no" accordingly.
